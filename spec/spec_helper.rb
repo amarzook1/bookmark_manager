@@ -4,7 +4,6 @@ require_relative './setup_test_database'
 RSpec.configure do |config|
   config.before(:each) do
     Clear.clear
-    p 'test'
   end
 end
 
